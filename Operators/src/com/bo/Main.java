@@ -35,8 +35,13 @@ public class Main {
 
         result += 2;
 
-        System.out.println(" result now = " + result);
+        System.out.println("result now = " + result);
 
+
+        int topScore = 100;
+
+        if ( topScore == 100)
+            System.out.println("You got the high score");
 
     }
 }
