@@ -43,5 +43,10 @@ public class Main {
         if ( topScore == 100)
             System.out.println("You got the high score");
 
+        int secondScore = 80;
+
+        if ( topScore > 90 || secondScore <= 90)
+            System.out.println("one of these tests is true");
+
     }
 }
