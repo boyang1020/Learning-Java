@@ -48,5 +48,16 @@ public class Main {
         if ( topScore > 90 || secondScore <= 90)
             System.out.println("one of these tests is true");
 
+        if ( topScore < 90 || secondScore <= 70)
+            System.out.println("one of these tests is true");
+
+        int newValue = 50;
+
+        if (newValue == 50)
+            System.out.println("This is an error");
+
+
+
+
     }
 }
