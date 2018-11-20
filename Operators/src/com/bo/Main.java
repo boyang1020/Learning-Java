@@ -54,9 +54,17 @@ public class Main {
         int newValue = 50;
 
         if (newValue == 50)
-            System.out.println("This is an error");
+            System.out.println("This is true");
 
+        boolean isCar = false;
+        if(isCar)
+            System.out.println("This is not suppose to happen");
 
+        isCar = true;
+
+        boolean wasCar = isCar ? true : false;
+            if(wasCar)
+                System.out.println("wasCar is true");
 
 
     }
