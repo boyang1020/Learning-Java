@@ -7,7 +7,7 @@ public class Main {
 //        any variable and code executed inside this, and this is called methods
     }
 
-    public static void calculateScore() {
+    public static void calculateScore( boolean gameOver, int score, int levelCompleted, int bonus) {
 //        this is a calculate score method
     }
 }
